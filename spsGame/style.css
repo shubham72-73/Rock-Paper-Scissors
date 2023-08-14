@@ -1,0 +1,70 @@
+h1{
+	color: brown;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+body{
+  background-color: #ffd2a9;
+}
+
+.playingArea{
+  background-color: #d27c7c;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  padding: 60px;
+  border-radius: 15px;
+}
+
+.hand{
+  justify-self: center;
+  padding: 10px;
+  background-color: rgb(235, 252, 168);
+  border-radius: 15px;
+}
+
+.playerName1{
+  justify-self: center;
+  padding: 10px;
+  font-family: Impact;
+  font-size: 40px;
+}
+
+.playerName2{
+  justify-self: center;
+  padding: 10px;
+  font-family: Impact;
+  font-size: 40px;
+}
+
+#image1{
+  width: 200px;
+  height: 200px;
+}
+
+#image2{
+  width: 200px;
+  height: 200px;
+}
+
+.submit-button{
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myButton{
+  background-color: #E6030C;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: cursive;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+}
+
